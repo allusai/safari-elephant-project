@@ -1,0 +1,13 @@
+The database name or schema name is "elephants.db"
+It's a SQLite database
+
+Common Uses:
+Open file -> "sqlite3 elephants.db"
+Run SQL script -> "sqlite3 elephants.db < database.sql"
+Show which tables are in DB -> ".tables"
+Show values in tables -> "SELECT * FROM Rangers;"
+
+
+
+Embedding a live video feed into website
+https://support.google.com/youtube/answer/171780?hl=en

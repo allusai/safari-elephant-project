@@ -1,0 +1,24 @@
+{
+  "name": "safari-elephants-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "forever start app.js; ./node_modules/jest/bin/jest.js __tests__/api/assignment-5-api-test.js;",
+    "start": "node app.js",
+    "stop": "forever stop app.js;"
+  },
+  "author": "Sai Allu",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "frisby": "^2.1.1",
+    "jest": "^24.7.1",
+    "mysql": "^2.16.0",
+    "sequelize": "^5.2.8",
+    "sequelize-cli": "^5.4.0",
+    "sqlite3": "^4.0.6"
+  }
+}
